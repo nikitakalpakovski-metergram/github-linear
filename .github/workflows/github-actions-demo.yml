@@ -7,4 +7,10 @@ jobs:
   Test-Job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The job was automatically triggered. Hello!"
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Hello world action
+        uses: ./
+        id: hello
+        with:
+          who-to-greet: "The greetee"
