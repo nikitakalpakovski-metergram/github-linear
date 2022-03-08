@@ -1,0 +1,29 @@
+{
+  "name": "github-linear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "ncc build index.ts --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitakalpakovski-metergram/github-linear.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitakalpakovski-metergram/github-linear/issues"
+  },
+  "homepage": "https://github.com/nikitakalpakovski-metergram/github-linear#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
