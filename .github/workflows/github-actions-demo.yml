@@ -1,0 +1,10 @@
+name: Add git tag to Linear ticket on merge
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Test-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The job was automatically triggered. Hello!"
