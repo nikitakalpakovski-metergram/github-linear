@@ -1,6 +1,9 @@
 import core from "@actions/core";
 import github from "@actions/github";
 
+console.log("core", core);
+console.log("github", github);
+
 try {
   const nameToGreet = core.getInput("who-to-greet");
   console.log(`Hello ${nameToGreet}`);
